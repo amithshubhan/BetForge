@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package orderbook;
+
+option go_package = "./orderbookpb";
+
+service OrderbookService {
+  rpc RegisterMatch (MatchRequest) returns (RegisterMatchResponse);
+}
+
+message MatchRequest {
+  string match_id = 1;
+  string team_a = 2;
+  string team_b = 3;
+}
+
+message RegisterMatchResponse {
+  string status = 1;
+}
