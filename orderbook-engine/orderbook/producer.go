@@ -17,18 +17,29 @@ func init() {
     config.Producer.Retry.Max = 5                             // Retry up to 5 times
     config.Producer.Return.Successes = true                  // Return success messages
     config.Producer.Compression = sarama.CompressionSnappy   // Use Snappy compression for better performance
+    config.Version = sarama.V2_8_1_0                        // Set Kafka version
 
     // Create a new Sarama producer
     var err error
     producer, err = sarama.NewSyncProducer([]string{"localhost:9092"}, config)
     if err != nil {
-        log.Fatalf("Failed to start Sarama producer: %v", err)
+        log.Printf("Failed to start Sarama producer: %v", err)
+        return
     }
 }
 
 // PublishMatchEvent publishes an order as a Kafka message
 func PublishMatchEvent(order Order) {
-    payload, _ := json.Marshal(order)
+    if producer == nil {
+        log.Println("Kafka producer not initialized")
+        return
+    }
+
+    payload, err := json.Marshal(order)
+    if err != nil {
+        log.Printf("Failed to marshal order: %v", err)
+        return
+    }
     fmt.Println("Publishing event to Kafka:", string(payload))
 
     // Create a Kafka message
@@ -48,7 +59,9 @@ func PublishMatchEvent(order Order) {
 
 // Close closes the Sarama producer
 func Close() {
-    if err := producer.Close(); err != nil {
-        log.Println("Failed to close Sarama producer:", err)
+    if producer != nil {
+        if err := producer.Close(); err != nil {
+            log.Println("Failed to close Sarama producer:", err)
+        }
     }
 }

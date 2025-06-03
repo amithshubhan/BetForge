@@ -1,8 +1,15 @@
-module orderbook-engine
+module github.com/amithshubhan/Bet_Now/orderbook-engine
 
 go 1.24.3
 
 require golang.org/x/exp v0.0.0-20250506013437-ce4c2cf36ca6
+
+require (
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250218202821-56aae31c358a // indirect
+	google.golang.org/protobuf v1.36.5 // indirect
+)
 
 require (
 	github.com/IBM/sarama v1.45.1 // indirect
@@ -25,4 +32,5 @@ require (
 	github.com/segmentio/kafka-go v0.4.48 // indirect
 	golang.org/x/crypto v0.33.0 // indirect
 	golang.org/x/net v0.35.0 // indirect
+	google.golang.org/grpc v1.72.2
 )

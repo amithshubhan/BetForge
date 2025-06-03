@@ -3,7 +3,8 @@ package handlers
 import (
 	"encoding/json"
 	"net/http"
-	"orderbook-engine/orderbook"
+
+	"github.com/amithshubhan/Bet_Now/orderbook-engine/orderbook"
 )
 
 func PlaceOrderHandler(w http.ResponseWriter, r *http.Request) {

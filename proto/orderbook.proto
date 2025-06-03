@@ -2,14 +2,14 @@ syntax = "proto3";
 
 package orderbook;
 
-option go_package = "./orderbookpb";
+option go_package = "github.com/amithshubhan/Bet_Now/orderbookpb";
 
 service OrderbookService {
   rpc RegisterMatch (MatchRequest) returns (RegisterMatchResponse);
 }
 
 message MatchRequest {
-  string match_id = 1;
+  string match_id = 1; 
   string team_a = 2;
   string team_b = 3;
 }

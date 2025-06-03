@@ -23,10 +23,10 @@ func main() {
 
 	client := orderbookpb.NewOrderbookServiceClient(conn)
 
-	ticker := time.NewTicker(3 * time.Hour) // Every 3 hours
+	ticker := time.NewTicker(60 * time.Second) // Every 3 hours
 	defer ticker.Stop()
 
-	log.Println("Match Service started. Creating matches every 3 hours...")
+	log.Println("Match Service started. Creating matches every 1 minute...")
 
 	for {
 		select {
@@ -38,8 +38,8 @@ func main() {
 
 func createAndRegisterMatch(client orderbookpb.OrderbookServiceClient) {
 	matchID := uuid.New().String()
-	teamA := "Chennai Super Kings"
-	teamB := "Mumbai Indians"
+	teamA := "CSK"
+	teamB := "MI"
 
 	log.Printf("Creating new match: %s vs %s (ID: %s)", teamA, teamB, matchID)
 
@@ -60,3 +60,4 @@ func createAndRegisterMatch(client orderbookpb.OrderbookServiceClient) {
 
 	log.Printf("Match registered successfully: %s", resp.Status)
 }
+// 770b8b49-027b-46ec-b427-d45b80e0a137

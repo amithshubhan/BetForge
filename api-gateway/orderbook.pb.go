@@ -137,7 +137,7 @@ const file_proto_orderbook_proto_rawDesc = "" +
 	"\x15RegisterMatchResponse\x12\x16\n" +
 	"\x06status\x18\x01 \x01(\tR\x06status2^\n" +
 	"\x10OrderbookService\x12J\n" +
-	"\rRegisterMatch\x12\x17.orderbook.MatchRequest\x1a .orderbook.RegisterMatchResponseB-Z+github.com/amithshubhan/Bet_Now/orderbookpbb\x06proto3"
+	"\rRegisterMatch\x12\x17.orderbook.MatchRequest\x1a .orderbook.RegisterMatchResponseB\x0fZ\r./orderbookpbb\x06proto3"
 
 var (
 	file_proto_orderbook_proto_rawDescOnce sync.Once
