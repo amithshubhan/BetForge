@@ -16,3 +16,16 @@ Verification of tamper proof
 Ordering workflow
 
 ![](https://www.plantuml.com/plantuml/dpng/fPBBRjD058RtynI_kaga56oZj0Z9g2smGEM22jcncNWcPEInnymSjq88YIrx7W5Uh4_2NAmsH3OKiSb4a-_yENFET-A8M-eRpNX5ncBbf6MTlrALwdXBE7XjXRGNfYTf3y0TmjTHvioO-dqxUoTvayyZ6cxoFvF5BLamLfPuetabSVRyAJR68eQXB1aBZU7myV3tU9J063UBdvyfi0iu9MIvLcA1pgfAbjcze-K27-bJcHVPbpbB0JugjUUJNfYgnarZcCMWVR2O08inyCbMUfAxsk5AqJPrWkjlFv3Z4A4ZbFvui6ICQy9BJjKM6zEtWW58CRjv2V1veIYBZrbcTq2N4JtEC8jBu7e-NdGX6tCfqOHQAM0ih1Hz9KFvJKM-ExDJ8JpJSDMgzaF0G0P-wbXxW4dj95wP53WTiEcrZaKcpFJt13-AaLMjMkrti3_niH_E-QRcGPD-hPNRnh4ykvGjxLXs-lRyloppKxwrh1WiEvgMR4AfIO7yDFO4-Za8L2I1ZlzD89yNYhAXQP0nqEOArr-_mzMg-tljmsnuupYwwWGdRqtFMrAafCDzTAPB-tLtrIB8IoOSeovCR_R4atsZVm40)
+
+Place order workflow
+![image](https://github.com/user-attachments/assets/cc701695-792d-41a8-827f-5a0c1ebfbfe4)
+
+Cross team matching workflow
+![image](https://github.com/user-attachments/assets/356df868-ecac-42da-a89f-4775acff8b21)
+
+Price discovery and market updates
+![image](https://github.com/user-attachments/assets/88c9929f-c6fc-43db-905b-7429cdbecf7f)
+
+Orderbook architecture - complete
+![image](https://github.com/user-attachments/assets/e5f39a0f-7b83-4829-95b1-08aa6d4ed343)
+
