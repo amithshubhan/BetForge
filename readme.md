@@ -1,0 +1,31 @@
+User workflow for the entire app.
+
+![PlantUML diagram](https://cdn-0.plantuml.com/plantuml/png/RP91Zvim48Nl_XMZd5gfg7SELPeshQAq6oIouhANmHx00Zp8c4JvzuinGR3QawttFfxyPjZt3gqRsaQWT6pXjIShkb7IKdTe7En-9YVuYuxk-DW1zi_x5igmQSX1IlQc9KrSaBROnIgoENCDHrDg4y15tB9dB6g4W-MQxCHDmfOvtcWy_d5PpaouRg6CyfHbJGwIeQzcC4k5y5qX-l5i54DoIQ_mlMjGKiJ-LMAsF1NwnF2h8ba36WM_ATSE3jYWaII23z4wSFO2IGekPx6EN9h7y8Vj7QqAabYC3zH_TBBo9RM4Bzf4BRLi7rytV9ZJM6R86zrNypVJf8IOF0-5GOrjsFH3InigU2lAd-0OhjXsPAF4CXUGEhQqIipIpzEorBj-rl6q0BXfX6KdGhom8x2wh1nmiIvxAi0mj5DKmODHtzuCAkKVmfu2Zmcn9wFy__iE)
+
+Match creation workflow
+![PlantUML diagram](https://cdn-0.plantuml.com/plantuml/png/LP1DYuCm443l-HM3XsKNbFquUbYqBHGFfOBI-v0CD62i95DB_trnD4LF2PdtaaUAmEZvxZg5ccyUIkDihmRqRBKTi6T8ohg28p8zy9a0XhZVGYTaVOM6_6Wr2IOdpQYLaZiX-uzc3lMvQU5RUqAcp4sWMcOJ5iqSza9y2b4TKc12LyxBBWL9RwsZBnMLhNx1pXfaWW-eoGSRU0MkUcPbUSt4546aFOU_dz_tkA3UJ1_s0W00)
+
+Tamper proof loggin workflow
+
+![PlantUML diagram](https://cdn-0.plantuml.com/plantuml/png/LP1FIyD05CJl-oc6d5fii5Jqq8DKYoXKiH3lCZQlIQZP3Uzj-_bj_XpMqomxlzaVxCOYDPxRNzTTipaq7Nr4jkFnH3nhE8bce66u-C-yNEGQxw6gHcOwkfAHFpH1ziMs4ytt6i8HHGmgc1LtjrkQqPVAUJyR2bRYt2ZD7wU7rjW6R-TMyC5ug37utDYbrAjuKKP1yVQqkd-OIS_X1ftAvRkcrVDaDCdMs8jQOt6a5-YvHJgPGEI9QRLSudFdDkBB_iV-0000)
+
+Verification of tamper proof
+
+![](https://www.plantuml.com/plantuml/png/LP11IiKm48RtESLFjrBSTo5FvE56KEh3_PXCsq3QX4bIy03kF89UhYSnqInqDJ_9zty9Sug99ENLATB92swpiMMgK4wjje6sXEwySnaFVfvPEb1iKHbAz4gHqLre3IpzatW_uRa8-8UhYMPMgcdHtxJkWFlp1TSxYvtUUhsGtTJlJMLQRy38P43EWUiN8gwmK5muDlQlRsJjrv0Jux-j8Etr0SVdErx8MOF74SVN1-wyI0w9ZJhnPkeQlW40)
+
+Ordering workflow
+
+![](https://www.plantuml.com/plantuml/dpng/fPBBRjD058RtynI_kaga56oZj0Z9g2smGEM22jcncNWcPEInnymSjq88YIrx7W5Uh4_2NAmsH3OKiSb4a-_yENFET-A8M-eRpNX5ncBbf6MTlrALwdXBE7XjXRGNfYTf3y0TmjTHvioO-dqxUoTvayyZ6cxoFvF5BLamLfPuetabSVRyAJR68eQXB1aBZU7myV3tU9J063UBdvyfi0iu9MIvLcA1pgfAbjcze-K27-bJcHVPbpbB0JugjUUJNfYgnarZcCMWVR2O08inyCbMUfAxsk5AqJPrWkjlFv3Z4A4ZbFvui6ICQy9BJjKM6zEtWW58CRjv2V1veIYBZrbcTq2N4JtEC8jBu7e-NdGX6tCfqOHQAM0ih1Hz9KFvJKM-ExDJ8JpJSDMgzaF0G0P-wbXxW4dj95wP53WTiEcrZaKcpFJt13-AaLMjMkrti3_niH_E-QRcGPD-hPNRnh4ykvGjxLXs-lRyloppKxwrh1WiEvgMR4AfIO7yDFO4-Za8L2I1ZlzD89yNYhAXQP0nqEOArr-_mzMg-tljmsnuupYwwWGdRqtFMrAafCDzTAPB-tLtrIB8IoOSeovCR_R4atsZVm40)
+
+Place order workflow
+![image](https://github.com/user-attachments/assets/cc701695-792d-41a8-827f-5a0c1ebfbfe4)
+
+Cross team matching workflow
+![image](https://github.com/user-attachments/assets/356df868-ecac-42da-a89f-4775acff8b21)
+
+Price discovery and market updates
+![image](https://github.com/user-attachments/assets/88c9929f-c6fc-43db-905b-7429cdbecf7f)
+
+Orderbook architecture - complete
+![image](https://github.com/user-attachments/assets/e5f39a0f-7b83-4829-95b1-08aa6d4ed343)
+
